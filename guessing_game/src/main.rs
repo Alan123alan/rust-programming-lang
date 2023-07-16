@@ -3,9 +3,9 @@ use rand::Rng;
 use std::cmp::Ordering;
 use std::any::type_name;
 
-fn type_of<T>(_: &T) ->&'static str{
-    type_name::<T>()
-}
+//fn type_of<T>(_: &T) ->&'static str{
+//    type_name::<T>()
+//}
 
 fn main() {
     let secret_number = rand::thread_rng().gen_range(1..=100);
